@@ -7,7 +7,7 @@
 1. 在 config.toml 中配置好需要索引消息的群组，执行 ```sudo docker-compose up -d```
 1. （可选）自行配置并编译前端，在 docker-compose.yml 中追加下面内容（供参考）
     ```
-    luoxu-front:
+    luoxu-frontend:
         image: danjellz/http-server
         volumes:
         - ./public:/public

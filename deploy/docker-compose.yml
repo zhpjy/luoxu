@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: PGroonga
       POSTGRES_USER: PGroonga
 
-  luoxu-back:
+  luoxu-backend:
     build:
       context: ../
       dockerfile: Dockerfile
